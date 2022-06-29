@@ -1,14 +1,14 @@
 // Bootstrap Functions
-@import "../../../node_modules/bootstrap/scss/functions";
+@import "/node_modules//bootstrap/scss/functions.scss";
 
 // Theme Variables
-@import "design-system/variables";
+@import "./design-system/variables.scss";
 
 // Bootstrap Core
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
 
 // Theme Core
-@import "design-system/theme";
+@import "./design-system/theme.scss";
 
 // React Differences
-@import "react/react-differences";
+@import "./react/react-differences.scss"
